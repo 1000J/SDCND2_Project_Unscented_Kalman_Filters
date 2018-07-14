@@ -67,6 +67,9 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  ///* NIS of system  after measurement
+  float nis_;
+
 
   /**
    * Constructor
